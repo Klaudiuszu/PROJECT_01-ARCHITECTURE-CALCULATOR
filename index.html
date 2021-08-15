@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        
+        <title>Calculator for work</title>
+    </head>
+    <body>
+
+        
+        
+        <div  class="calculatorGrid">
+            <div class="output">
+                <div id="currentOperation">0</div>
+            </div>
+            <button id="reset">RESET</button>
+            <div id="outputLeft">0</div>
+            <div id="outputRight">0</div>
+            <button class="left plus button " data-side="left" data-operation="add" id="leftAdd">+</button>
+            <button onclick="getNewColor()" class="right plus button " id="rightAdd">+</button>
+            <button  class="left minus button " id="dataOperationMinusLeft">-</button>
+            <button class="right minus button " id="dataOperationMinusRight">-</button>
+            
+        </div>
+
+        <script src="main.js"></script>
+    </body>
+
+</html>
